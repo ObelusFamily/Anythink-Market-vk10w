@@ -10,4 +10,20 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+### Docker installation
+
+First install Docker as described here: https://docs.docker.com/install/
+
+## Running both frontend and backend
+
+To run both frontend and backend, run the following command:
+
+```bash
+docker-compose up
+```
+
+It starts both applications in a separate docker containers
+
+To test if backend is started correctly, open in browser http://localhost:3000/
+
+To test if frontend is started correctly, open in browser http://localhost:3001/
